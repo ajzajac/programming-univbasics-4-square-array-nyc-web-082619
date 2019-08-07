@@ -1,4 +1,9 @@
 def square_array(array)
 count = 0 
 new_array = []
-while count < array.length 
+while count < array.length do
+  Math.sqrt(array[count])
+  count += 1 
+end
+return new_array
+end
