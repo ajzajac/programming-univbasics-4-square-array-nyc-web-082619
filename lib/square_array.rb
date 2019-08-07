@@ -4,3 +4,4 @@ def square_array(array)
  Math.sqrt(array[count])
  count += 1
 end
+end
